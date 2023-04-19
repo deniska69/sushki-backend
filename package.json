@@ -19,7 +19,7 @@
   "devDependencies": {
     "nodemon": "^2.0.22"
   },
-  "author": "Denis Gostev",
+  "author": "Denis Gostev (gostev.dy@yandex.ru)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deniska69/sushki-backend/issues"
