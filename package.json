@@ -1,17 +1,28 @@
 {
   "name": "sushki-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend portion of my multi-player game Sushki JS",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deniska69/sushki-backend"
+  },
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "nodemon": "^2.0.22",
     "socket.io": "^4.6.1"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "Denis Gostev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deniska69/sushki-backend/issues"
+  },
+  "homepage": "https://github.com/deniska69/sushki-backend#readme"
 }
